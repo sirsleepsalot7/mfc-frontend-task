@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MFC Event Registration</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>MFC Event Portal</h1>
+    <nav>
+      <a href="#details">Event Details</a>
+      <a href="#register">Register</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="details">
+      <h2>Event Details</h2>
+      <p>Join us for our upcoming club event! Exciting activities await.</p>
+      <div id="countdown"></div>
+    </section>
+
+    <section id="register">
+      <h2>Register Now</h2>
+      <form id="registrationForm">
+        <label>Name: <input type="text" id="name" required></label>
+        <label>Email: <input type="email" id="email" required></label>
+        <label>Phone: <input type="tel" id="phone" required></label>
+        <button type="submit">Submit</button>
+        <div id="progress"></div>
+      </form>
+      <div id="successMessage"></div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Info</h2>
+      <p>Email: club@example.com</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 MFC</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
